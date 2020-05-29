@@ -1,4 +1,4 @@
-# Basic Authenticaiton
+# Basic Authentication
 
 Basic Authentication is a method for a HTTP user agent (e.g. a web browser) to provide a user and password when making a request.
 
