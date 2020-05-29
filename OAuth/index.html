@@ -21,15 +21,10 @@
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         </form>
-        <script>
-        let client = new JSO({
-            providerID: "google",
-            client_id: "541950296471.apps.googleusercontent.com",
-            redirect_uri: "http://localhost:8080/", // The URL where you is redirected back, and where you perform run the callback() function.
-            authorization: "https://accounts.google.com/o/oauth2/auth",
-            scopes: { request: ["https://www.googleapis.com/auth/userinfo.profile"]}
-        })
+        <script type="text/javascript" src="dist/jso.js"></script>
+        <script type="text/javascript">
+            var config = {...}
+            var j = new jso.JSO(config)
         </script>
-        <script type="text/javascript" src="https://unpkg.com/jso/dist/jso.js"></script>
     </body>
 </html>
