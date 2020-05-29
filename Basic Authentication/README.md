@@ -15,4 +15,5 @@ When using basic HTTP authentication, a request contains a header field in the f
 - SSL takes time to run basic HTTP so this will make the response time slow.
 - Lack of SSL means users can be exposed to MITM.
 
+
 ![image](https://media.prod.mdn.mozit.cloud/attachments/2017/02/21/14689/3a44ec0bfe7597613dfb913e450a68eb/HTTPAuth.png)
